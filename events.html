@@ -1,0 +1,530 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href="css/home.css" rel="stylesheet" />
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .ui-btn {
+            font-size: 12px;
+            margin: 0px 0px 0px 0px;
+            padding: 0.4em;
+        }
+
+        .fadein {
+            position: relative;
+            height: 332px;
+            width: 500px;
+        }
+
+            .fadein img {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+        .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn,
+        html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited,
+        html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited,
+        .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper, .ui-bar-a, .ui-page-theme-a .ui-bar-inherit,
+        html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+            text-shadow: none;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page">
+        <style>
+            .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit,
+            html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+                border: none;
+            }
+
+            .ui-dialog-contain {
+                width: 100%;
+                margin: 4% 0 0 0;
+            }
+        </style>
+        <link href="css/home.css" rel="stylesheet" />
+        <div data-role="header" data-position="fixed" style="text-align: center; padding-left: 5%; padding-right: 5%; width: 100%; height: 70px; background: linear-gradient(to bottom, rgba(146,191,60,1) 0%,rgba(157,199,77,1) 29%,rgba(171,207,103,1) 65%,rgba(146,191,60,1) 100%); padding-top: 0px; border: none;" id="header">
+            <div class="row" style="padding-top: 5px; text-align: center;">
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="Home.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/home.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Home</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="events.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/eventsSelected.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Events</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="news_feed.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/newspaper16.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Feeds</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="members.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/multiple250.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Members</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="profile_own.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/user420.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Profile</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="main" style="background-color: #fff;">
+            <div style="background-color: #232E40;">
+                <div class="row" style="text-align: center; opacity: 1.0">
+                    <div class="col-xs-12" style="padding-top: 2%;">
+                        <h3 style="font-family: sans-serif; color: #ffffff;">EVENTS</h3>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 12px; padding-bottom: 12px;">
+                    <div class="col-xs-10" style="padding-right: 0px;">
+                        <div class="span12">
+                            <form id="custom-search-form" class="form-search form-horizontal" style="margin-left: 3%;">
+                                <div class="input-append" style="border: none; opacity: 0.9;">
+                                    <input type="search" class="search-query" style="border: none; text-shadow: none;" placeholder="Search by name, date, location...." />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-2" style="margin-top: 12px;">
+                        <img src="images/search.png" style="height: 80%; width: 80%;" />
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="text-align: center;">
+                <div class="col-xs-12" style="height: 60px;">
+                    <img src="images/recmnd events.png" style="width: 100%; height: 70%;" />
+                </div>
+            </div>
+            <div class="row" style="text-align: center;">
+                <div class="col-xs-12" style="height: 50px; margin-top: 1%; margin-bottom: 5%;">
+                    <h3 style="margin-top: 5px; color: #2e2e2e; text-align: center; font-size: 22px;">Monday, November 6th</h3>
+                    <hr style="margin-top: -6px; margin-bottom: 0px; margin-left: 78px; margin-right: 80px; border-top: 2px solid #09243a; opacity: 0.7;" />
+                </div>
+            </div>
+            <br />
+
+            <div class="row" style="margin-left: 3%; margin-right: 3%; margin-top: -23px;">
+                <div class="col-xs-2" style="width:18%; margin-top: 3px; height: 65px; padding-right: 0px; padding-left: 0px;">
+                    <div style="height: 100%; padding-top: 5px; border: 2px solid #c6e184; background-color: #c6e184; vertical-align: middle;">
+                        <p style="text-align: center; font-size: 16px; padding-top: 5px; font-family: sans-serif; color: #09052D;">11:30 AM</p>
+                    </div>
+                </div>
+                <div class="col-xs-10" style="width:82%; margin-top: -6px; padding-right: 0px;">
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-12" style="font-size: 16px; color: #2e2e2e; margin-top: -2px;">
+                            <h4>Peace Begins With Me</h4>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-6">
+                            <h6 style="margin-top: 2px; color: #545454;">Community & Service</h6>
+                        </div>
+                        <div class="col-xs-6" style="text-align: right;">
+                            <h6 style="margin-top: 2px; color: #545454;">14 Attending</h6>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-12">
+                            <h6 style="margin-top: 2px; color: #545454;">75 Federal St, 3rd floor, MA 02110</h6>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px; margin-bottom:3%;">
+                        <div class="col-xs-6">
+                            <a href="#myPopupDialog1" data-rel="popup" data-position-to="window" data-transition="flip">
+                                <button type="button" class="btn btn-default btn-lg" style="border: none; text-shadow: none; font-family: sans-serif; background-color: #09243a; border-color: #09243a; border-width: 2px; color: #fff;">
+                                    RSVP
+                                </button>
+                            </a>
+                            <div data-role="popup" id="myPopupDialog1">
+                                <div data-role="header" style="background: linear-gradient(to bottom, rgba(146,191,60,1) 0%,rgba(157,199,77,1) 29%,rgba(171,207,103,1) 65%,rgba(146,191,60,1) 100%);">
+                                    <h1 style="font-family: sans-serif; color: #09243a;"><strong>RSVP</strong> </h1>
+                                </div>
+
+                                <div data-role="main" class="ui-content" id="popchange111">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img src="images/detailsjoinpopup.png" style="width: 100%;" id="rsvpplay11" />
+                                            <img src="images/detailsjoinpopup2.png" style="width: 100%;" id="rsvpplay21" hidden="hidden" />
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <a href="#" class="ui-btn ui-corner-all" id="rsvpplay31" style="font-family: sans-serif; background-color: #09243a; border-color: #09243a; color: #fff;height:40px;padding-top:10px;">RESERVE</a>
+                                </div>
+
+                                <div data-role="main" class="ui-content" id="popchange211" hidden="hidden">
+                                    <p style="font-family: sans-serif;">We have recieved your RSVP. You will receive text message reminder closer to the event date!</p>
+                                    <br />
+                                    <a href="#" data-rel="back" id="rsvpplay41" class="ui-btn ui-corner-all" style="font-family: sans-serif; background-color: #09243a; border-color: #09243a; color: #fff;height:40px;padding-top:10px;">OK</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="event_details.html" data-rel="dialog" data-transition="slidedown">
+                                <button type="button" class="btn btn-default btn-lg" style="border: none; text-shadow: none; font-family: sans-serif; background-color: #09243a; border-color: #09243a; border-width: 2px; color: #fff;">
+                                    MORE
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <div class="row" style="margin-left: 3%; margin-right: 3%;">
+                <div class="col-xs-2" style="width:18%; margin-top: 3px; height: 65px; padding-right: 0px; padding-left: 0px;">
+                    <div style="height: 100%; padding-top: 5px; border: 2px solid #c6e184; background-color: #c6e184; vertical-align: middle;">
+                        <p style="text-align: center; font-size: 16px; padding-top: 5px; font-family: sans-serif; color: #09052D;">5:30 PM</p>
+                    </div>
+                </div>
+                <div class="col-xs-10" style="width:82%; margin-top: -6px; padding-right: 0px;">
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-12" style="font-size: 16px; color: #2e2e2e; margin-top: -2px;">
+                            <h4>Finantial Literacy Seminar</h4>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-6">
+                            <h6 style="margin-top: 2px; color: #545454;">Finances/Employment</h6>
+                        </div>
+                        <div class="col-xs-6" style="text-align: right;">
+                            <h6 style="margin-top: 2px; color: #545454;">9 Attending</h6>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-12">
+                            <h6 style="margin-top: 2px; color: #545454;">1234 Columbus Ave, Roxbury, MA 02120</h6>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-6">
+                            <a href="#myPopupDialog2" data-rel="popup" data-position-to="window" data-transition="flip">
+                                <button type="button" class="btn btn-default btn-lg" style="border: none; text-shadow: none; font-family: sans-serif; background-color: #09243a; border-color: #09243a; border-width: 2px; color: #fff;">
+                                    RSVP
+                                </button>
+                            </a>
+                            
+                            <div data-role="popup" id="myPopupDialog2">
+                                <div data-role="header" style="background: linear-gradient(to bottom, rgba(146,191,60,1) 0%,rgba(157,199,77,1) 29%,rgba(171,207,103,1) 65%,rgba(146,191,60,1) 100%);">
+                                    <h1 style="font-family: sans-serif; color: #09243a;"><strong>RSVP</strong></h1>
+                                </div>
+
+                                <div data-role="main" class="ui-content" id="popchange112">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img src="images/detailsjoinpopup.png" style="width: 100%;" id="rsvpplay12" />
+                                            <img src="images/detailsjoinpopup2.png" style="width: 100%;" id="rsvpplay22" hidden="hidden" />
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <a href="#" class="ui-btn ui-corner-all" id="rsvpplay32" style="font-family: sans-serif; background-color: #09243a; border-color: #09243a; color: #fff;height:40px;padding-top:10px;">RESERVE</a>
+                                </div>
+
+                                <div data-role="main" class="ui-content" id="popchange212" hidden="hidden">
+                                    <p style="font-family: sans-serif;">We have recieved your RSVP. You will receive text message reminder closer to the event date!</p>
+                                    <br />
+                                    <a href="#" data-rel="back" id="rsvpplay42" class="ui-btn ui-corner-all" style="font-family: sans-serif; background-color: #09243a; border-color: #09243a; color: #fff;height:40px;padding-top:10px;">OK</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="event_details.html" data-rel="dialog" data-transition="slidedown">
+                                <button type="button" class="btn btn-default btn-lg" style="border: none; text-shadow: none; font-family: sans-serif; background-color: #09243a; border-color: #09243a; border-width: 2px; color: #fff;">
+                                    MORE
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--            <hr style="margin-top: 20px; margin-bottom: 0px; border: 0; border-top: 1px solid #eee;" />-->
+            <br /><br />
+            <div class="row" style="text-align: center;">
+                <div class="col-xs-12" style="height: 60px;">
+                    <img src="images/othr events.png" style="width: 100%; height: 70%;" />
+                </div>
+            </div>
+
+            <div class="col-xs-12" style="height: 50px; margin-top: 1%; margin-bottom: 5%;">
+                <h3 style="margin-top: 5px; color: #2e2e2e; justify-content: center; font-size: 22px; margin-left: 15%;">Saturday, November 4th</h3>
+                <hr style="margin-top: -6px; margin-bottom: 0px; margin-left: 60px; margin-right: 60px; border-top: 2px solid #09243a;" />
+            </div>
+            <br />
+
+            <div class="row" style="margin-left: 3%; margin-right: 3%;">
+                <div class="col-xs-2" style="width:18%; margin-top: 3px; height: 65px; padding-right: 0px; padding-left: 0px;">
+                    <div style="height: 100%; padding-top: 5px; border: 2px solid #c6e184; background-color: #c6e184; vertical-align: middle;">
+                        <p style="text-align: center; font-size: 16px; padding-top: 5px; font-family: sans-serif; color: #09052D;">4:00 PM</p>
+                    </div>
+                </div>
+                <div class="col-xs-10" style="width:82%; margin-top: -6px; padding-right: 0px;">
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-12" style="font-size: 16px; color: #2e2e2e; margin-top: -2px;">
+                            <h4 style="color: #09052D;">Bridges to English Class</h4>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-6">
+                            <h6 style="margin-top: 2px; color: #09052D;">Education</h6>
+                        </div>
+                        <div class="col-xs-6" style="text-align: right;">
+                            <h6 style="margin-top: 2px;">14 Attending</h6>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px;">
+                        <div class="col-xs-12">
+                            <h6 style="margin-top: 2px; color: #09052D;">75 Federal St, 3rd floor, MA 02110</h6>
+                        </div>
+                    </div>
+                    <div class="row" style="height: 25px; margin-bottom:3%;">
+                        <div class="col-xs-6">
+                            <a href="#myPopupDialog3" data-rel="popup" data-position-to="window" data-transition="flip">
+                                <button type="button" class="btn btn-default btn-lg" style="border: none; text-shadow: none; font-family: sans-serif; background-color: #09243a; border-color: #09243a; border-width: 2px; color: #fff;">
+                                    RSVP
+                                </button>
+                            </a>
+                            <div data-role="popup" id="myPopupDialog3">
+                                <div data-role="header" style="background: linear-gradient(to bottom, rgba(146,191,60,1) 0%,rgba(157,199,77,1) 29%,rgba(171,207,103,1) 65%,rgba(146,191,60,1) 100%);">
+                                    <h1 style="font-family: sans-serif; color: #09243a;"><strong>RSVP</strong> </h1>
+                                </div>
+
+                                <div data-role="main" class="ui-content" id="popchange113">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <img src="images/detailsjoinpopup.png" style="width: 100%;" id="rsvpplay13" />
+                                            <img src="images/detailsjoinpopup2.png" style="width: 100%;" id="rsvpplay23" hidden="hidden" />
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <a href="#" class="ui-btn ui-corner-all" id="rsvpplay33" style="font-family: sans-serif; background-color: #09243a; border-color: #09243a; color: #fff;height:40px;padding-top:10px;">RESERVE</a>
+                                </div>
+
+                                <div data-role="main" class="ui-content" id="popchange213" hidden="hidden">
+                                    <p style="font-family: sans-serif;">We have recieved your RSVP. You will receive text message reminder closer to the event date!</p>
+                                    <br />
+                                    <a href="#" data-rel="back" id="rsvpplay43" class="ui-btn ui-corner-all" style="font-family: sans-serif; background-color: #09243a; border-color: #09243a; color: #fff;height:40px;padding-top:10px;">OK</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="event_details.html" data-rel="dialog" data-transition="slidedown">
+                                <button type="button" class="btn btn-default btn-lg" style="border: none; text-shadow: none; font-family: sans-serif; background-color: #09243a; border-color: #09243a; border-width: 2px; color: #fff;">
+                                    MORE
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+        </div>
+
+
+        <!--<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left">Events</a>
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-center ui-btn-center">Meet Members</a>
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-btn-right">Profile</a>-->
+        <br />
+        <script type="text/javascript">
+            $("#rsvpplay11").click(function () {
+                if ($("#rsvpplay11").is(":visible")) {
+                    $("#rsvpplay11").hide();
+                    $("#rsvpplay21").show();
+                }
+            });
+            $("#rsvpplay31").click(function () {
+                if ($("#rsvpplay21").is(":visible")) {
+                    $("#popchange111").hide();
+                    $("#popchange211").show();
+                }
+            });
+            $("#rsvpplay41").click(function () {
+                $("#rsvpplay21").hide();
+                $("#rsvpplay11").show();
+                $("#popchange211").hide();
+                $("#popchange111").show();
+            });
+
+            $("#rsvpplay12").click(function () {
+                if ($("#rsvpplay12").is(":visible")) {
+                    $("#rsvpplay12").hide();
+                    $("#rsvpplay22").show();
+                }
+            });
+            $("#rsvpplay32").click(function () {
+                if ($("#rsvpplay22").is(":visible")) {
+                    $("#popchange112").hide();
+                    $("#popchange212").show();
+                }
+            });
+            $("#rsvpplay42").click(function () {
+                $("#rsvpplay22").hide();
+                $("#rsvpplay12").show();
+                $("#popchange212").hide();
+                $("#popchange112").show();
+            });
+
+            $("#rsvpplay13").click(function () {
+                if ($("#rsvpplay13").is(":visible")) {
+                    $("#rsvpplay13").hide();
+                    $("#rsvpplay23").show();
+                }
+            });
+            $("#rsvpplay33").click(function () {
+                if ($("#rsvpplay23").is(":visible")) {
+                    $("#popchange113").hide();
+                    $("#popchange213").show();
+                }
+            });
+            $("#rsvpplay43").click(function () {
+                $("#rsvpplay23").hide();
+                $("#rsvpplay13").show();
+                $("#popchange213").hide();
+                $("#popchange113").show();
+            });
+        </script>
+    </div>
+
+</body>
+<script type="text/javascript">
+    $(function () {
+        $('.fadein img:gt(0)').hide();
+        setInterval(function () { $('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein'); }, 3000);
+    });
+
+    $(document).ready(function () {
+        $("#addphoto1").click(function () {
+            $("#part1").toggle();
+            $("#part2").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto2").click(function () {
+            $("#part3").toggle();
+            $("#part4").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto3").click(function () {
+            $("#part5").toggle();
+            $("#part6").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto4").click(function () {
+            $("#part7").toggle();
+            $("#part8").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#sub1").click(function () {
+            $("#part1").hide();
+            $("#part2").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub2").click(function () {
+            $("#part3").hide();
+            $("#part4").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub3").click(function () {
+            $("#part5").hide();
+            $("#part6").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub4").click(function () {
+            $("#part7").hide();
+            $("#part8").show();
+            $(".clearnum").val("");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#addphotoab").click(function () {
+            $(".parta").toggle();
+            $(".partb").hide();
+        });
+    });
+
+    $(document).ready(function () {
+        $("#submitevent").click(function () {
+            if ($('#text11').val().length == 0) {
+                $('#text1').css('color', 'red');
+            } else {
+                $('#text1').css('color', 'black');
+            }
+            if ($('#text22').val().length == 0) {
+                $('#text2').css('color', 'red');
+            } else {
+                $('#text2').css('color', 'black');
+            }
+            if ($('#text33').val().length == 0) {
+                $('#text3').css('color', 'red');
+            } else {
+                $('#text3').css('color', 'black');
+            }
+            if ($('#text55').val().length == 0) {
+                $('#text5').css('color', 'red');
+            } else {
+                $('#text5').css('color', 'black');
+            }
+            if ($('#text11').val().length != 0 && $('#text22').val().length != 0 && $('#text33').val().length != 0 && $('#text55').val().length != 0) {
+                window.location.href = 'http://net4.ccs.neu.edu/home/jkapadia/HCI/Home.html';
+            }
+        });
+    });
+</script>
+</html>

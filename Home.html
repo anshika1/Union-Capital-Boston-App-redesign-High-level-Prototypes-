@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css' />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+
+        .ui-btn {
+            font-size: 12px;
+            margin: 0px 0px 0px 0px;
+            padding: 0.4em;
+        }
+
+        .fadein {
+            position: relative;
+            height: 332px;
+            width: 500px;
+        }
+
+            .fadein img {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+
+        .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn,
+        html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited,
+        html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited,
+        .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper, .ui-bar-a, .ui-page-theme-a .ui-bar-inherit,
+        html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+            text-shadow: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div data-role="page">
+        <style>
+            .ui-dialog-contain {
+                width:100%;
+                margin:4% 0 0 0;
+            }
+        </style>
+        <link href="css/home.css" rel="stylesheet" />
+        <div data-role="header" data-position="fixed" style="text-align: center; padding-left: 5%; padding-right: 5%; width: 100%; height: 70px; background: linear-gradient(to bottom, rgba(146,191,60,1) 0%,rgba(157,199,77,1) 29%,rgba(171,207,103,1) 65%,rgba(146,191,60,1) 100%); padding-top: 0px; border: none;" id="header">
+            <div class="row" style="padding-top: 5px; text-align: center;">
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="Home.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/home152.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Home</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="events.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/events.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Events</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="news_feed.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/newspaper16.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Feeds</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="members.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/multiple250.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Members</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="profile_own.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/user420.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Profile</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="main" style="background-color: #fff; height: 555px;">
+            <div class="row">
+                <div class="col-xs-12" style="height: 180px; width: 100%;">
+                    <div class="fadein" style="height: 180px; width: 100%;">
+                        <img src="images/ucb2.jpg" style="height: 180px; width: 100%;" />
+                        <img src="images/ucb6.jpg" style="height: 180px; width: 100%;" />
+                        <img src="images/ucb4.jpg" style="height: 180px; width: 100%;" />
+                        <img src="images/ucb5.jpg" style="height: 180px; width: 100%;" />
+                        <img src="images/ucb3.jpg" style="height: 180px; width: 100%;" />
+                        <img src="images/ucb7.jpg" style="height: 180px; width: 100%;" />
+                    </div>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="row">
+                <div class="col-xs-2" style="height: 160px;">
+                </div>
+                <a href="star.html" style="text-decoration: none !important;" data-rel="dialog" data-transition="slidedown">
+                    <div class="col-xs-8" style="height: 220px;">
+                        <img src="images/star.png" style="width: 100%; height: 100%" />
+                    </div>
+                </a>
+                <div class="col-xs-2" style="height: 160px;">
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-5" style="height: 100px; width: 43%; margin-left: -2%;">
+                    <a href="checkin.html" style="text-decoration: none !important;" data-rel="dialog" data-transition="slidedown">
+                        <button type="button" style="border: none; text-shadow: none; font-family: sans-serif; height: 80%; font-size: 16px; background-image:url(images/button.png); color: #fff;background-size:100% 100%;padding:0px 0px 0px 0px;">
+                            <span class="glyphicon glyphicon-check" aria-hidden="true"></span>&nbsp Check-In
+                        </button>
+                    </a>
+                </div>
+                <div class="col-xs-5" style="height: 100px; width: 43%;">
+                    <a href="selfie.html" style="text-decoration: none !important;" data-rel="dialog" data-transition="slidedown">
+                        <button type="button" style="border: none; text-shadow: none; font-family: sans-serif; height: 80%; font-size: 16px; background-image:url(images/button.png); color: #fff;background-size:100% 100%;padding:0px 0px 0px 0px;">
+                            <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>&nbsp Selfie
+                        </button>
+                    </a>
+                </div>
+                <div class="col-xs-1"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('.fadein img:gt(0)').hide();
+                setInterval(function () { $('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein'); }, 3000);
+            });
+
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    window.scrollTo(0, 1);
+                }, 0);
+            });
+        </script>
+    </div>
+</body>
+</html>

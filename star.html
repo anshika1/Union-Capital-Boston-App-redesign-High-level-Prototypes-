@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link href="css/home.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css' />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .ui-btn {
+            font-size: 12px;
+            margin: 0px 0px 0px 0px;
+            padding: 0.4em;
+        }
+
+        .fadein {
+            position: relative;
+            height: 332px;
+            width: 500px;
+        }
+
+            .fadein img {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+        .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn,
+        html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited,
+        html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited,
+        .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper, .ui-bar-a, .ui-page-theme-a .ui-bar-inherit,
+        html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+            text-shadow: none;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page">
+        <link href="css/home.css" rel="stylesheet" />
+        <!--<div data-role="header" data-position="fixed" style="text-align: center; padding-left: 5%; padding-right: 5%; width: 100%; height: 70px; background: linear-gradient(to bottom, rgba(146,191,60,1) 0%,rgba(157,199,77,1) 29%,rgba(171,207,103,1) 65%,rgba(146,191,60,1) 100%); padding-top: 0px; border: none;" id="header">
+            <div class="row" style="padding-top: 5px; text-align: center;">
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="Home.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/home.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Home</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="events.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/events.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Events</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="news_feed.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/newspaper16.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Feeds</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="members.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/multiple250.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Members</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="profile_own.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/user420.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Profile</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>-->
+
+        <div data-role="main" style="background-color: #fff;">
+            <div style="background-color: #232E40;">
+
+                <div class="row" style="text-align: right; opacity: 1.0; padding-right: 3%; padding-top: 5px; padding-bottom: 7px;">
+                    <a href="home.html">
+                        <div class="col-xs-2" style="float: left; margin-top: 15px; margin-left:5px; text-align: left; margin-left: 3%;">
+                            <img src="images/cancel.png" style="width: 50%;" />
+                        </div>
+                    </a>
+                    <div class="col-xs-2">
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center; opacity: 1.0">
+                    <div class="col-xs-4" style="padding-right: 0px;">
+                    </div>
+                    <div class="col-xs-4" style="padding-left: 0px; padding-right: 0px;">
+                        <img src="images/points.png" style="width: 100%; height: 100%; border-radius: 50%; padding-top: 5px;" />
+                    </div>
+                    <div class="col-xs-4" style="padding-right: 0px;">
+                    </div>
+                </div>
+                <div class="row" style="text-align: center; opacity: 1.0">
+                    <div class="col-xs-12">
+                        <h3 style="color: #fff;">Total Points</h3>
+                    </div>
+                </div>
+                <br />
+            </div>
+            <div class="row" style="text-align: center;">
+                    <div class="col-xs-12">
+                        <img src="images/pendeve.png" style="width: 100%" />
+                    </div>
+                </div>
+            <div class="row" style="text-align: center; background-color: #aaabab;">
+                <div class="col-xs-12" style="background-color: #ffffff; margin-bottom: 5px;">
+                    <h3 style="margin-top: 15px; font-size: 14px; color: #09052D; margin-bottom: 15px;">No pending approvals yet!</h3>
+                </div>
+            </div>
+            <div style="background-color: #aaabab;">
+                <div class="row" style="text-align: center;">
+                    <div class="col-xs-12">
+                        <img src="images/appeve.png" style="width: 100%" />
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 3%; padding-right: 3%; background-color: #ffffff; margin-bottom: 1px;">
+                    <div class="col-xs-2" style="width: 14%; margin-top: 13px; margin-left: 3%; margin-bottom: 13px; padding-right: 0px; padding-left: 0px; height: 80%;">
+                        <div style="height: 100%; padding-top: 3px; border: 2px solid #c6e184; background-color: #c6e184; vertical-align: middle;">
+                            <p style="text-align: center; font-size: 16px; font-family: sans-serif; color: #09052D; margin-bottom: 2px;">
+                                <span style="font-size: 16px;">250</span><br />
+                                <span style="font-size: 12px;">points</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-10" style="width: 83%; margin-top: 6px; padding-right: 0px;">
+                        <div class="row" style="height: 30px;">
+                            <div class="col-xs-12" style="font-size: 15px; color: #2e2e2e; margin-top: -2px;">
+                                <h4>Peace Begins With Me</h4>
+                            </div>
+                        </div>
+                        <div class="row" style="height: 30px;">
+                            <div class="col-xs-12">
+                                <h5 style="margin-top: 4px; color: #838383;">Checkin date: December 8 at 3:09 PM</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 3%; padding-right: 3%; background-color: #ffffff; margin-top: 1px; margin-bottom: 1px;">
+                    <div class="col-xs-2" style="width: 14%; margin-top: 13px; margin-left: 3%; margin-bottom: 13px; padding-right: 0px; padding-left: 0px; height: 80%;">
+                        <div style="height: 100%; padding-top: 3px; border: 2px solid #c6e184; background-color: #c6e184; vertical-align: middle;">
+                            <p style="text-align: center; font-size: 16px; font-family: sans-serif; color: #09052D; margin-bottom: 2px;">
+                                <span style="font-size: 16px;">150</span><br />
+                                <span style="font-size: 12px;">points</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-10" style="width: 83%; margin-top: 6px; padding-right: 0px;">
+                        <div class="row" style="height: 30px;">
+                            <div class="col-xs-12" style="font-size: 15px; color: #2e2e2e; margin-top: -2px;">
+                                <h4>Finantial Literacy Seminar Series</h4>
+                            </div>
+                        </div>
+                        <div class="row" style="height: 30px;">
+                            <div class="col-xs-12">
+                                <h5 style="margin-top: 4px; color: #838383;">Checkin date: December 5 at 4:20 PM</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 3%; padding-right: 3%; background-color: #ffffff; margin-top: 1px; margin-bottom: 1px;">
+                    <div class="col-xs-2" style="width: 14%; margin-top: 13px; margin-left: 3%; margin-bottom: 13px; padding-right: 0px; padding-left: 0px; height: 80%;">
+                        <div style="height: 100%; padding-top: 3px; border: 2px solid #c6e184; background-color: #c6e184; vertical-align: middle;">
+                            <p style="text-align: center; font-size: 16px; font-family: sans-serif; color: #09052D; margin-bottom: 2px;">
+                                <span style="font-size: 16px;">120</span><br />
+                                <span style="font-size: 12px;">points</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-10" style="width: 83%; margin-top: 6px; padding-right: 0px;">
+                        <div class="row" style="height: 30px;">
+                            <div class="col-xs-12" style="font-size: 15px; color: #2e2e2e; margin-top: -2px;">
+                                <h4>Reading books to children</h4>
+                            </div>
+                        </div>
+                        <div class="row" style="height: 30px;">
+                            <div class="col-xs-12">
+                                <h5 style="margin-top: 4px; color: #838383;">Checkin date: December 4 at 11:20 PM</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 3%; padding-right: 3%; background-color: #ffffff; margin-top: 1px; margin-bottom: 1px;">
+                    <div class="col-xs-2" style="width: 14%; margin-top: 13px; margin-left: 3%; margin-bottom: 13px; padding-right: 0px; padding-left: 0px; height: 80%;">
+                        <div style="height: 100%; padding-top: 3px; border: 2px solid #c6e184; background-color: #c6e184; vertical-align: middle;">
+                            <p style="text-align: center; font-size: 16px; font-family: sans-serif; color: #09052D; margin-bottom: 2px;">
+                                <span style="font-size: 16px;">80</span><br />
+                                <span style="font-size: 12px;">points</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-10" style="width: 83%; margin-top: 6px; padding-right: 0px;">
+                        <div class="row" style="height: 30px;">
+                            <div class="col-xs-12" style="font-size: 15px; color: #2e2e2e; margin-top: -2px;">
+                                <h4>Taking children to park</h4>
+                            </div>
+                        </div>
+                        <div class="row" style="height: 30px;">
+                            <div class="col-xs-12">
+                                <h5 style="margin-top: 4px; color: #838383;">Checkin date: December 3 at 12:25 PM</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left">Events</a>
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-center ui-btn-center">Meet Members</a>
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-btn-right">Profile</a>-->
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $('.fadein img:gt(0)').hide();
+        setInterval(function () { $('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein'); }, 3000);
+    });
+
+    $(document).ready(function () {
+        $("#addphoto1").click(function () {
+            $("#part1").toggle();
+            $("#part2").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto2").click(function () {
+            $("#part3").toggle();
+            $("#part4").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto3").click(function () {
+            $("#part5").toggle();
+            $("#part6").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto4").click(function () {
+            $("#part7").toggle();
+            $("#part8").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#sub1").click(function () {
+            $("#part1").hide();
+            $("#part2").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub2").click(function () {
+            $("#part3").hide();
+            $("#part4").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub3").click(function () {
+            $("#part5").hide();
+            $("#part6").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub4").click(function () {
+            $("#part7").hide();
+            $("#part8").show();
+            $(".clearnum").val("");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#addphotoab").click(function () {
+            $(".parta").toggle();
+            $(".partb").hide();
+        });
+    });
+
+    $(document).ready(function () {
+        $("#submitevent").click(function () {
+            if ($('#text11').val().length == 0) {
+                $('#text1').css('color', 'red');
+            } else {
+                $('#text1').css('color', 'black');
+            }
+            if ($('#text22').val().length == 0) {
+                $('#text2').css('color', 'red');
+            } else {
+                $('#text2').css('color', 'black');
+            }
+            if ($('#text33').val().length == 0) {
+                $('#text3').css('color', 'red');
+            } else {
+                $('#text3').css('color', 'black');
+            }
+            if ($('#text55').val().length == 0) {
+                $('#text5').css('color', 'red');
+            } else {
+                $('#text5').css('color', 'black');
+            }
+            if ($('#text11').val().length != 0 && $('#text22').val().length != 0 && $('#text33').val().length != 0 && $('#text55').val().length != 0) {
+                window.location.href = 'http://net4.ccs.neu.edu/home/jkapadia/HCI/Home.html';
+            }
+        });
+    });
+</script>
+</html>

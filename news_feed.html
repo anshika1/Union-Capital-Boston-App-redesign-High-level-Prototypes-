@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link href="css/home.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .ui-btn {
+            font-size: 12px;
+            margin: 0px 0px 0px 0px;
+            padding: 0.4em;
+        }
+
+        .fadein {
+            position: relative;
+            height: 332px;
+            width: 500px;
+        }
+
+            .fadein img {
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+        .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn,
+        html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited,
+        html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited,
+        .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper, .ui-bar-a, .ui-page-theme-a .ui-bar-inherit,
+        html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+            text-shadow: none;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page">
+        <link href="css/home.css" rel="stylesheet" />
+        <div data-role="header" data-position="fixed" style="text-align: center; padding-left: 5%; padding-right: 5%; width: 100%; height: 70px; background: linear-gradient(to bottom, rgba(146,191,60,1) 0%,rgba(157,199,77,1) 29%,rgba(171,207,103,1) 65%,rgba(146,191,60,1) 100%); padding-top: 0px; border: none;" id="header">
+            <div class="row" style="padding-top: 5px; text-align: center;">
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="Home.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/home.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Home</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="events.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/events.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Events</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="news_feed.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/newsSelected.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Feeds</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="members.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/multiple250.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Members</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3" style="width: 20%">
+                    <a href="profile_own.html" style="color: #09243a;">
+                        <div class="row">
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; margin-top: 4%;">
+                                <img src="images/user420.png" style="width: 30px; height: 40px; padding-bottom: 5px; padding-top: 5px;" />
+                            </div>
+                            <div class="col-xs-12" style="padding: 0px 0px 0px 0px; font-size: 12px; color: #09243a;">Profile</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="main" style="background-color: #fff;">
+            <div style="background-color: #232E40;">
+                <div class="row" style="text-align: center; opacity: 1.0">
+                    <div class="col-xs-12" style="padding-top: 2%;">
+                        <h3 style="color: #fff;">NEWS FEED</h3>
+                    </div>
+                </div>
+                <div class="row" style="margin-left: 0.5%; padding-top: 12px; margin-right: 3%;">
+                    <div class="col-xs-2" style="padding-right: 0px;">
+                        <img src="images/profilepic.jpg" style="width: 100%; height: 100%; border-radius: 50%; padding-top: 5px;" />
+                    </div>
+                    <div class="col-xs-2" style="padding-right: 0px; height: 45px; padding-top: 15px;">
+                        <p style="color: #fff; text-shadow: none;">Kayla</p>
+                    </div>
+
+                    <div class="col-xs-8" style="padding-right: 0px;">
+                        <div class="row">
+                            <div class="col-xs-12" style="opacity: 0.9;" id="box1">
+                                <textarea rows="5" name="textarea-11" id="textarea1" placeholder="Write post here..."></textarea>
+                            </div>
+                            <div class="col-xs-12" style="opacity: 0.9;" id="box2" hidden="hidden">
+                                <textarea rows="5" name="textarea-11" id="textarea2" placeholder="">Anyone going to the 25th December event for kids? I will be going by car. Send me a message if any one is willing to carpool.</textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5" style="height: 48px; opacity: 0.9;">
+                                <button type="button" class="btn btn-default btn-lg" id="post" style="border: none; text-shadow: none; font-family: sans-serif; background-color: #fff; border-color: #fff; border-width: 2px; color: #10377B;">
+                                    Post
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-12" id="feeds1">
+                    <img src="images/feeds.png" style="width: 100%;" />
+                </div>
+                <div class="col-xs-12" id="feeds2" hidden="hidden">
+                    <img src="images/feeds2.png" style="width: 100%;" />
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#box1").click(function () {
+                    if ($("#feeds1").is(":visible")) {
+                        $("#box1").hide();
+                        $("#box2").show();
+                    }
+                });
+
+                $("#post").click(function () {
+                    if ($("#box2").is(":visible")) {
+                        $("#feeds1").hide();
+                        $("#feeds2").show();
+                        $("#box1").show();
+                        $("#box2").hide();
+                    }
+                });
+
+            });
+        </script>
+        <!--<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left">Events</a>
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-center ui-btn-center">Meet Members</a>
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-btn-right">Profile</a>-->
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $('.fadein img:gt(0)').hide();
+        setInterval(function () { $('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein'); }, 3000);
+    });
+
+    $(document).ready(function () {
+        $("#addphoto1").click(function () {
+            $("#part1").toggle();
+            $("#part2").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto2").click(function () {
+            $("#part3").toggle();
+            $("#part4").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto3").click(function () {
+            $("#part5").toggle();
+            $("#part6").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#addphoto4").click(function () {
+            $("#part7").toggle();
+            $("#part8").hide();
+        });
+    });
+    $(document).ready(function () {
+        $("#sub1").click(function () {
+            $("#part1").hide();
+            $("#part2").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub2").click(function () {
+            $("#part3").hide();
+            $("#part4").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub3").click(function () {
+            $("#part5").hide();
+            $("#part6").show();
+            $(".clearnum").val("");
+        });
+    });
+    $(document).ready(function () {
+        $("#sub4").click(function () {
+            $("#part7").hide();
+            $("#part8").show();
+            $(".clearnum").val("");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#addphotoab").click(function () {
+            $(".parta").toggle();
+            $(".partb").hide();
+        });
+    });
+
+    $(document).ready(function () {
+        $("#submitevent").click(function () {
+            if ($('#text11').val().length == 0) {
+                $('#text1').css('color', 'red');
+            } else {
+                $('#text1').css('color', 'black');
+            }
+            if ($('#text22').val().length == 0) {
+                $('#text2').css('color', 'red');
+            } else {
+                $('#text2').css('color', 'black');
+            }
+            if ($('#text33').val().length == 0) {
+                $('#text3').css('color', 'red');
+            } else {
+                $('#text3').css('color', 'black');
+            }
+            if ($('#text55').val().length == 0) {
+                $('#text5').css('color', 'red');
+            } else {
+                $('#text5').css('color', 'black');
+            }
+            if ($('#text11').val().length != 0 && $('#text22').val().length != 0 && $('#text33').val().length != 0 && $('#text55').val().length != 0) {
+                window.location.href = 'http://net4.ccs.neu.edu/home/jkapadia/HCI/Home.html';
+            }
+        });
+    });
+</script>
+</html>
